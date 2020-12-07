@@ -1,0 +1,26 @@
+body{
+    background-color: #4d004d;
+    font-family: space mono;
+}
+/*
+.divR{
+    background-color:#ff471a;
+    color:white;
+    margin-right:0px;
+}
+.divB{
+    background-color:white;
+    color:#4d004d;
+    margin-left:0px;
+}
+.divR,.divB{
+    display: inline-block;
+    
+}
+*/
+.corner-left-title{
+    background-color:#ff3333;
+    margin-top:0px;
+    margin-left:0px;
+    color:white;
+}
