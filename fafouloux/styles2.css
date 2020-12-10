@@ -197,7 +197,7 @@ ul .booking-card .informations-container .title {
     margin-top: 40px;
     margin-left:40px;
 }
-.navant{
+/*.navant{
     background-color:#ff4d4d;
     color:azure;
     font-size: 30px;
@@ -205,4 +205,18 @@ ul .booking-card .informations-container .title {
     padding:5px;
     margin-left:300px;
     margin-top:150px;
+}*/
+input[type=submit]{
+    background-color:#ff4d4d;
+    border: none;
+    color: azure;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left:300px;
+    margin-top:150px;
+    width:400px;
+    font-size: 30px;
+
 }
