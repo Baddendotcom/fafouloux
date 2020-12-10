@@ -1,21 +1,86 @@
 body{
-    background-color: #4d004d;
-    font-family: Space mono, cursive;
-    margin:0px;
+    font-family: space mono,cursive;
+    background-color:#4d004d;
+}
+.adres{
+    padding-top:5px;
+    padding-bottom:0px;
+    margin-top:-10px;
+    height: 14px;
+    color:azure;
+    line-height: 1em;
+}
+.advice2{
+    line-height:1em;
+    color:azure;
+    margin-top: 30px;
+}
+.advice{
+    margin-top:10px;
+    line-height:1em;
+    color:#4d004d;
+}
+
+.divR{
+    background-color:#ff4d4d;
+    color:white;
+    margin-right:0px;
+    margin-left:30%;
+    height:50px;
+    padding:10px;
+}
+.divB{
+    background-color:white;
+    color:#4d004d;
+    margin-left:-10px;
+    height:50px;
+    padding:10px;
+}
+.divR,.divB{
     display: inline-block;
+    font-size:40px;
+    margin-top:5%;
+    font-weight:bold;
+}
+.enform{
+    margin-top:80px;
+    color:#4d004d;
+    margin-right:20%;
+    float:right;
+    font-size:40px;
+    
+}
+.selection{
+    margin-left:10px;
+    font-size:40px; 
+    display: inline-flex;
+    padding:5px;
+}
+.textinscription{
+    color:azure;
+}
+.menu{
+    margin-left:20px;
+    font-size:40px;
+    color:#4d004d;
+}
+.ident{
+    width: 700px;
+    line-height: 2em;
+    font-size:30px;
+    padding-top:10px;
+    margin:10px;
+    color:#4d004d;
+}
+.descinf{
+    position: absolute;
+    margin-left:20px;
+    font-size:25px;
+    color:azure;
+    width:700px;
 }
 .corner-left-title{
     margin-top:-10px;
-}
-.plsleft{
-    position: absolute;
-    background-color:#ff4d4d;
-    color:white;
-    padding:0px;
-    height:10%;
-    width:40%;
-    float:left;
-    margin-top:0;
 }
 .price{
     color:azure;
@@ -36,28 +101,20 @@ body{
     position:absolute;
     z-index:6;
 }
-
 .placedisp{
     position:absolute;
     z-index:4;
-    margin-top: 130px;
+    margin-top: 200px;
     margin-left:14px;
     color:#ff4d4d;
     font-size:14px;
     font-weight:bold;
     font-family: space mono, monospace;
 }
-a{
-    color:azure;
-}
-a:link 
-{ 
- text-decoration:none; 
-} 
 .commentevent{
     position:absolute;
     z-index:4;
-    margin-top: 115px;
+    margin-top: 180px;
     margin-left:185px;
     color:#ff6666;
     font-size:14px;
@@ -69,20 +126,14 @@ a:link
     z-index:4;
     font-family: space mono, monospace;
     font-size:18px;
-    margin-top:95px;
+    margin-top:160px;
     margin-left:50px;
 }
 .cards1{
     margin-top:70px;
     justify-content: center;
-
 }
 
-.title{
-    float:right;
-    margin-right:10%;
-    font-size: 40px;
-}
 .title2 {
     color:#ff4d4d;
     font-weight: 500;
@@ -102,7 +153,7 @@ ul {
     display:inline-flex;
     justify-content: center;
     flex-direction: row;
-    margin-left:40%;
+    margin-left:20%;
     
 }
 ul .booking-card {
@@ -121,7 +172,7 @@ ul .booking-card {
     margin-right:20px;
 }
 ul .booking-card .book-container {
-    height: 170px;
+    height: 240px;
 }
 ul .booking-card .book-container .content {
     opacity: 0;
@@ -134,7 +185,7 @@ ul .booking-card .book-container .content {
 ul .booking-card .informations-container {
     padding: 20px;
     background: #ff4d4d;
-    height:140px;
+    height:280px;
 }
 ul .booking-card .informations-container .title {
     padding-bottom: 10px;
@@ -144,4 +195,14 @@ ul .booking-card .informations-container .title {
 }
 .booking-card{
     margin-top: 40px;
+    margin-left:40px;
+}
+.navant{
+    background-color:#ff4d4d;
+    color:azure;
+    font-size: 30px;
+    width:400px;
+    padding:5px;
+    margin-left:300px;
+    margin-top:150px;
 }
